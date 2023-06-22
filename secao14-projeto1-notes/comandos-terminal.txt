@@ -1,0 +1,10 @@
+sudo apt install -y node npm 
+npm install body-parser express express-handlebars mongodb nodemon
+
+// alter 'package.json':
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 8000"
+},
+
+// create 'index.js'
