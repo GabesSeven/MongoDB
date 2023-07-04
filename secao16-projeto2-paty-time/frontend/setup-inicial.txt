@@ -1,0 +1,6 @@
+npm init -y
+npm install -g @vue/cli
+vue create frontend (escolhe: Babel, Router, Vuex)
+npm install vuex-persist
+
+npm run server
